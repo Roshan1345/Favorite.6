@@ -1,0 +1,41 @@
+.carousel-item active{
+    height: 900px;
+    width: 1100px;
+}
+.carousel-item{
+    height:auto;
+}
+#carousel slide{
+    margin: 180px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.card{
+    margin: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card:hover{
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.or-image{
+    height: 500px;
+    width: 316px;
+    margin: 10px;
+    border-radius: 50px;
+    transition: 0.3;
+}
+.or-image:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:780px){
+    .section{
+        flex-direction: column;
+    }
+}
